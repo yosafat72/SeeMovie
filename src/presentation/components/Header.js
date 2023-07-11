@@ -43,8 +43,8 @@ const Header = () => {
 const styles = StyleSheet.create({
     container: {
       backgroundColor: 'white',
-      height: 60 + (Platform.OS === 'ios' ? 50 : StatusBar.currentHeight),
-      paddingTop: Platform.OS === 'ios' ? 50 : StatusBar.currentHeight,
+      height: 60 + (Platform.OS === 'ios' ? 30 : StatusBar.currentHeight),
+      paddingTop: Platform.OS === 'ios' ? 30 : StatusBar.currentHeight,
       justifyContent: 'center',
       alignItems: 'center',
       shadowOpacity: 1,
